@@ -6,7 +6,7 @@ const btnDescriptions = [
 ];
 
 class Button {
-    constructor(description, el) {
+    constructor(description, el) { 
         this.el = el;
         this.hue = description.hue;
         this.sound = loadSound(description.file);
